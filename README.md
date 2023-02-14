@@ -1,4 +1,6 @@
-### Hi there 👋
+## About me 👋😄
+
+<!-- TO DO: add more details about me later -->
 
 Hi, I'm fengyihuai. You might recognize me as GitHub's mascot.
 <details>
@@ -11,10 +13,6 @@ Hi, I'm fengyihuai. You might recognize me as GitHub's mascot.
 |     3| R         |
 |     4| C/C++     |
 </details>
-
-## About me
-
-<!-- TO DO: add more details about me later -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
