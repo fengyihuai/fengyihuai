@@ -176,4 +176,19 @@ In this example, you could add a nested list item under the list item `100. Firs
 
 For more examples, see the [GitHub Flavored Markdown Spec](https://github.github.com/gfm/#example-265).
 
-## 
+## Task lists
+To create a task list, preface list items a hyphen and space followed by `[ ]`. To mark a task as complete, use `[x]`.
+```
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+```
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+If a task list item description begins with a parenthesis, you'll need to escape it with \``:
+
+`- [] \(Optional) Open a followup issue`
+
+For more information, see "[About task lists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)".
