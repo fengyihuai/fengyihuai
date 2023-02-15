@@ -126,7 +126,7 @@ The old method of specifying images based on the theme, by using a fragment appe
 ## Nested Lists
 You can create a nested list by indenting one or more list items below another item.
 
-To create a nested list using the web editor on GitHub or a text editro that uses a monospaced font, like Visual Studio Code, you can align your list visually. Type space characters in front of your nested list item, until the list marker character (`-`or`*`) lies directly below the first character of the text in the item above it.
+To create a nested list using the web editor on GitHub or a text editro that uses a monospaced font, like [Visual Studio Code](https://code.visualstudio.com/), you can align your list visually. Type space characters in front of your nested list item, until the list marker character (`-`or`*`) lies directly below the first character of the text in the item above it.
 ```
 1. First list item
    - First nested list item
@@ -134,7 +134,22 @@ To create a nested list using the web editor on GitHub or a text editro that use
 ```
 
 Note: In the web-based editor, you can indent ot dedent one or more lines of text first highlighting the desired lines and then suing `Tab` or `Shift`+`Tab` respectively.
+
 ![nested-list-alignment](images/nested-list-alignment.png)
 1. First list item
    - First nested list item
      - Second nested list item
+
+To create a nested list in the comment editor on GitHbu, which doesn't use a monospaced font, you can look at the list item immediately above the nested list and count the number of characters that appear before the content of the item. Then type that number of space characters in front of the nested list item.
+
+In this example, you could add a nested list item under the list item `100. First list item` by indenting the nested list item a minimum of five spaces, since there are five characters(`100. `) before `First list item`.
+```
+100. First list item
+     - First nested list item
+```
+100. First list item
+     - First nested list item
+
+For more examples, see the [GitHub Flavored Markdown Spec](https://github.github.com/gfm/#example-265).
+
+## 
