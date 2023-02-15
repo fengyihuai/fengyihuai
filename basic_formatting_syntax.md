@@ -62,4 +62,28 @@ In issues, pull requests, and discussions, you can call out colors within a sent
 ```
 The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
 ```
-The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
+![example](https://docs.github.com/assets/cb-13280/images/help/writing/supported-color-models-rendered.png)
+
+Here are the currently supported color models.
+| Color           | Syntsx      | Example     | Output                                                                                                     |
+|-----------------|-------------|-------------|------------------------------------------------------------------------------------------------------------|
+|HEX              | `` `#RRGGBB` `` | `` `#0969DA` `` | ![HEX](https://docs.github.com/assets/cb-1560/images/help/writing/supported-color-models-hex-rendered.png) |
+|RGB  | `` `rgb(R,G,B)` `` | `` `rgb(9, 105, 218)` `` | ![RGB](https://docs.github.com/assets/cb-1962/images/help/writing/supported-color-models-rgb-rendered.png) |
+|HSL| `` `hsl(H,S,L)` `` | `` `hsl(212, 92%, 45%)` `` | ![HSL](https://docs.github.com/assets/cb-2068/images/help/writing/supported-color-models-hsl-rendered.png) |
+
+Notes:
+- A supperorted color model cannot have any leading or trailing spaces within the backticks.
+- The visualization of the color is only supported in issues, pull requests, and discussions.
+
+# Links
+You can also create an inline link by wrapping link text in brackets `[ ]`, and then wrapping the URL in parentheses `(  )`. You can also use the keyboard shortcut `Command`+`K` to create a automatically create a link from selectioin.
+
+You can also create a Markdown hyperlink by highlighting the text and using the keyboard shortcut `Command`+`V`. If you'd like to replace the text with the link, use the keyboard shortcut `Command`+`Shift`+`V`.
+
+`This site was built using [GitHub Pages](https://pages.github.com/).`
+
+This site was built using [GitHub Pages](https://pages.github.com/).
+
+Tips: GitHub automatically creates links when valid URLs are written in a comment. For more information, see "[Autolinked references and URLs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)."
+
+# 
