@@ -62,14 +62,14 @@ In issues, pull requests, and discussions, you can call out colors within a sent
 ```
 The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
 ```
-![example](https://docs.github.com/assets/cb-13280/images/help/writing/supported-color-models-rendered.png)
+![example](images/supported-color-models-rendered.png)
 
 Here are the currently supported color models.
-| Color           | Syntsx      | Example     | Output                                                                                                     |
-|-----------------|-------------|-------------|------------------------------------------------------------------------------------------------------------|
-|HEX              | `` `#RRGGBB` `` | `` `#0969DA` `` | ![HEX](images/supported-color-models-hex-rendered.png) |
-|RGB  | `` `rgb(R,G,B)` `` | `` `rgb(9, 105, 218)` `` | ![RGB](images/help/writing/supported-color-models-rgb-rendered.png) |
-|HSL| `` `hsl(H,S,L)` `` | `` `hsl(212, 92%, 45%)` `` | ![HSL](images/help/writing/supported-color-models-hsl-rendered.png) |
+| Color  | Syntsx             | Example                    | Output                                                 |
+|--------|--------------------|----------------------------|--------------------------------------------------------|
+|HEX     | `` `#RRGGBB` ``    | `` `#0969DA` ``            | ![HEX](images/supported-color-models-hex-rendered.png) |
+|RGB     | `` `rgb(R,G,B)` `` | `` `rgb(9, 105, 218)` ``   | ![RGB](images/supported-color-models-rgb-rendered.png) |
+|HSL     | `` `hsl(H,S,L)` `` | `` `hsl(212, 92%, 45%)` `` | ![HSL](images/supported-color-models-hsl-rendered.png) |
 
 Notes:
 - A supperorted color model cannot have any leading or trailing spaces within the backticks.
@@ -91,7 +91,7 @@ You can link directly to a section in a rendered file by hovering over the secti
 
 [How do I science?](https://github.com/github/scientist#how-do-i-science)
 
-![Scientist_Readme](https://docs.github.com/assets/cb-25655/images/help/repository/readme-links.png)
+![Scientist_Readme](images/scientist-readme-links.png)
 
 # Relative links
 You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
@@ -101,6 +101,7 @@ A relative link is a link that is relative to the current file. For example, if 
 ```
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
 ```
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
 GitHub will automatically transform your relative link or image path based on whatever branch you're currently on, so that the link or path always works. The path of the link will be relative to the current file. Links starting with `/` will be relative to the repository root. You can use all relative link operands, sucha as `./` and `../`.
 
