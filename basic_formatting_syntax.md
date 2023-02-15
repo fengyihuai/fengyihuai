@@ -106,3 +106,21 @@ A relative link is a link that is relative to the current file. For example, if 
 GitHub will automatically transform your relative link or image path based on whatever branch you're currently on, so that the link or path always works. The path of the link will be relative to the current file. Links starting with `/` will be relative to the repository root. You can use all relative link operands, sucha as `./` and `../`.
 
 Relative links are easier for users who clone your repository. Absolute links may not work in clones of your repository - we recommend using links to refer to other files within your repository.
+
+For more information, see "[Relative Links](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links)".
+
+# Specifying the theme an image is shown to
+You can specify the theme an image is displayed for in Markdown by using the HTML `<picture>` element in combination with the `prefers-color-scheme` media feature. We distinguish between light and dar color modes, so there are two options availabel. You can use these options to display images optimized for dark or light backgrounds. This is particularly helpful for transparent PNG images.
+
+For example, the following code displays a sun image for light themes and a moon for dark themes:
+```
+<picture>
+ <source midia="(prefers-color-scheme: dark)" srcset="[https](https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png)">
+ <source midia="(prefers-color-scheme: light)" srcset="[https](https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png)">
+ <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode" src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+```
+
+The old method of specifying images based on the theme, by using a fragment appended to the URL(`#gh-dark-mode-only` or `#gh-light-mode-only`), is deprecated and will be removed in favor of the new method described above.
+
+# 
