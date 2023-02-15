@@ -67,9 +67,9 @@ The background color should be `#ffffff` for light mode and `#0d1117` for dark m
 Here are the currently supported color models.
 | Color           | Syntsx      | Example     | Output                                                                                                     |
 |-----------------|-------------|-------------|------------------------------------------------------------------------------------------------------------|
-|HEX              | `` `#RRGGBB` `` | `` `#0969DA` `` | ![HEX](https://docs.github.com/assets/cb-1560/images/help/writing/supported-color-models-hex-rendered.png) |
-|RGB  | `` `rgb(R,G,B)` `` | `` `rgb(9, 105, 218)` `` | ![RGB](https://docs.github.com/assets/cb-1962/images/help/writing/supported-color-models-rgb-rendered.png) |
-|HSL| `` `hsl(H,S,L)` `` | `` `hsl(212, 92%, 45%)` `` | ![HSL](https://docs.github.com/assets/cb-2068/images/help/writing/supported-color-models-hsl-rendered.png) |
+|HEX              | `` `#RRGGBB` `` | `` `#0969DA` `` | ![HEX](images/supported-color-models-hex-rendered.png) |
+|RGB  | `` `rgb(R,G,B)` `` | `` `rgb(9, 105, 218)` `` | ![RGB](images/help/writing/supported-color-models-rgb-rendered.png) |
+|HSL| `` `hsl(H,S,L)` `` | `` `hsl(212, 92%, 45%)` `` | ![HSL](images/help/writing/supported-color-models-hsl-rendered.png) |
 
 Notes:
 - A supperorted color model cannot have any leading or trailing spaces within the backticks.
