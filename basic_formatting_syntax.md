@@ -88,8 +88,20 @@ Tips: GitHub automatically creates links when valid URLs are written in a commen
 
 # Section links
 You can link directly to a section in a rendered file by hovering over the section heading to expose the link:
-![Scientist_Readme](https://docs.github.com/assets/cb-25655/images/help/repository/readme-links.png)
 
 [How do I science?](https://github.com/github/scientist#how-do-i-science)
 
-#
+![Scientist_Readme](https://docs.github.com/assets/cb-25655/images/help/repository/readme-links.png)
+
+# Relative links
+You can define relative links and image paths in your rendered files to help readers navigate to other files in your repository.
+
+A relative link is a link that is relative to the current file. For example, if you have a README file in root of your repository, and you have another file in _docs/CONTRIBUTING.md_, the relative link to _CONTRIBUTING.md_ in your README might look like this:
+
+```
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+```
+
+GitHub will automatically transform your relative link or image path based on whatever branch you're currently on, so that the link or path always works. The path of the link will be relative to the current file. Links starting with `/` will be relative to the repository root. You can use all relative link operands, sucha as `./` and `../`.
+
+Relative links are easier for users who clone your repository. Absolute links may not work in clones of your repository - we recommend using links to refer to other files within your repository.
