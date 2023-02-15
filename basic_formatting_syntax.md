@@ -86,4 +86,10 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 Tips: GitHub automatically creates links when valid URLs are written in a comment. For more information, see "[Autolinked references and URLs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)."
 
-# 
+# Section links
+You can link directly to a section in a rendered file by hovering over the section heading to expose the link:
+![Scientist_Readme](https://docs.github.com/assets/cb-25655/images/help/repository/readme-links.png)
+
+[How do I science?](https://github.com/github/scientist#how-do-i-science)
+
+#
