@@ -287,5 +287,12 @@ For more information, see Daring Fireball's "[Markdown Syntax](https://daringfir
 ## Diabling Markdown rendering 
 When viewing a Markdown file, you can click <> at the top of the file to disable Markdown rendering and view the file's source instead.
 
+![display-markdown-as-source](images/display-markdown-as-source.png)
 
 Disabling Markdown rendering enables you to use source view features, such as line linking, which is not possible when viewing rendered Markdwon files.
+
+## Further reading
+- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+- "[About writing and formatting on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)"
+- "[Working with advanced formatting](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)"
+- "[Quickstart for writing on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)"
