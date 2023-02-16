@@ -208,3 +208,84 @@ Typing an `@` symbol will bring up a list of people or teams on a project. The l
 
 The autocomplete results are restricted to repository collaborators and any other participants on the thread.
 
+## REferencing issues and pull requests
+You can bring up a list of suggested issues and pull requests within the repository by typing `#`. Type the issue or pull request number or title to filter the list, and then press either tab or enter to complete the highlighted result.
+
+For more information, see "[Autolinked references and URLs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)".
+
+## Referencing external resources
+If custom autolink references are configured for a repository, then references to external resources, like a JIRA or Zendesk ticket, convert into shortened links. To know which autolinks are available in your repository, contact someone with admin permissions to the repository. For more information, see "[Configuring autolinks to reference external resources](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-autolinks-to-reference-external-resources)".
+
+## Uploading assets
+You can upload assets like images by dragging and dropping, selecting from a file brower, or pasting. You can upload assets to issues, pull requests, comments, and `.md` files in your repository.
+
+## Using emoji
+You can add emoji to your writing by typing `:EMOJICODE:`.
+
+`@octocat :+1: This is PR looks greate - it's ready to merge! :shipit:`
+
+@octocat 👍 This is PR looks greate - it's ready to merge! :shipit:
+
+Typing `:` will bring up a list of suggested emoji. The list will filter as you type, so once you find the emoji you're looking for, press **Tab** or **Enter** to complete the highlighted result.
+
+For a full list of available emoji and codes, check out [the Emoji-Cheat-Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
+
+## Paragraphs
+You can create a new paragraph by leaving a blank line between lines of text.
+
+## Footnotes
+You can add footnotes to your content by using this bracket syntax:
+
+```
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.
+  This allows you to have a footnote with multiple lines.
+[^note]:
+    Named footnotes will still render with numbes instead of the text but allow easier identification and linking.
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
+```
+
+The foonote wiil render like this:
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.
+  This allows you to have a footnote with multiple lines.
+[^note]:
+    Named footnotes will still render with numbes instead of the text but allow easier identification and linking.
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
+    
+Note: The position of a footnote in your Markdown does not influence where the footnote will be rendered. You can write a footnote right after your reference to the footnote, and the footnote will still render at the bottom of the Markdown.
+
+Footnotes are not supported in wikis.
+
+## Hiding content with comments
+You can tell GitHub to hide content from the rendered Markdown by placing the content in an HTML comment.
+
+`<!-- This content will not appear in the rendered Markdown -->`
+
+## Ignoring Markdown formatting
+You can tell GitHbu to ignore (or escape) Markdown formatting by using `\` before the Markdown character.
+
+`Let's rename \*our-new-project\* to \*our-old-project\*`
+
+Let's rename \*our-new-project\* to \*our-old-project\*
+
+For more information, see Daring Fireball's "[Markdown Syntax](https://daringfireball.net/projects/markdown/syntax#backslash)".
+
+## Diabling Markdown rendering 
+When viewing a Markdown file, you can click <> at the top of the file to disable Markdown rendering and view the file's source instead.
+
+
+Disabling Markdown rendering enables you to use source view features, such as line linking, which is not possible when viewing rendered Markdwon files.
