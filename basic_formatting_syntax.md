@@ -192,3 +192,8 @@ If a task list item description begins with a parenthesis, you'll need to escape
 `- [] \(Optional) Open a followup issue`
 
 For more information, see "[About task lists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)".
+
+## Mentioning people and teams
+You can mention a person or [team](https://docs.github.com/en/organizations/organizing-members-into-teams) on GitHub by typing `@` plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notification, see "[About notification](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications)".
+
+Note: A person will only 
