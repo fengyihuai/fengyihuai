@@ -196,4 +196,15 @@ For more information, see "[About task lists](https://docs.github.com/en/get-sta
 ## Mentioning people and teams
 You can mention a person or [team](https://docs.github.com/en/organizations/organizing-members-into-teams) on GitHub by typing `@` plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notification, see "[About notification](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications)".
 
-Note: A person will only 
+Note: A person will only be notified about a mention if the person has read access to the repository and, if the repository is owned by an organization, the person is a member of the organization.
+
+`@github/support What do you think about these updates`
+
+@github/support What do you whink about these updates?
+
+When you mention a parent team, members of its child teams also receive notifications, simplifying communication with multiple groups of people. For more information, see "[About teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams)".
+
+Typing an `@` symbol will bring up a list of people or teams on a project. The list filters as you type, so once you find the name of the person or team you are looking for, you can use the arrow keys to select it and press either tab or enter to complete the name. For teams, enter the @organization/team-name and all members of that team will get subscribed to the conversation.
+
+The autocomplete results are restricted to repository collaborators and any other participants on the thread.
+
